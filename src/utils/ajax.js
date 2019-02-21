@@ -1,5 +1,6 @@
 import axios from "axios";
-axios.defaults.baseURL = 'http://vue.cc';
+// axios.defaults.baseURL = 'http://vue.cc';
+axios.defaults.baseURL = 'http://www.noobweb.cc/api/wearefamily';
 
 axios.interceptors.response.use(function (response) {
     return response;
